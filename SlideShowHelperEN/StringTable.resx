@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="IDS_Bg" xml:space="preserve">
+    <value>[0]\nstart=1\nend={0,0:D}\nlayer=1\noverlay=1\ncamera=0\n[0.0]\n_name=Graphic\nSize=100\nrAspect=0.0\nLine width=4000\ntype=0\ncolor={1}\nname=\n[0.1]\n_name=Standard drawing\nX=0.0\nY=0.0\nZ=0.0\nZoom%=100.00\nClearness=0.0\nRotation=0.00\nblend=0\n</value>
+  </data>
+  <data name="IDS_ImgCommon" xml:space="preserve">
+    <value>start={0,0:D}\nend={1,0:D}\nlayer={2,0:D}\noverlay=1\ncamera=0\n</value>
+  </data>
+  <data name="IDS_ImgFile" xml:space="preserve">
+    <value>_name=Image file\nfile={0}\n</value>
+  </data>
+  <data name="IDS_ImgFX" xml:space="preserve">
+    <value>_name=Animation effect\ntrack0={0,0:F2}\ntrack1={1,0:F2}\ntrack2=0.00,{2,0:F2},103\ntrack3=0.00,0.00,103\ncheck0=0\ntype=0\nfilter=2\nname=SimpleWrapV2\nparam=local ATp={3,0:D};local DFp={4,0:D};local POS=1;local M=30;local BS=0;local PSA=0;local mcol=0xff0000;local acol=0x00ff00;local dcol=0x0000ff;local fcol=0xff00ff;local sz=50;local lw=3;\n</value>
+  </data>
+  <data name="IDS_ImgStdDrawing" xml:space="preserve">
+    <value>_name=Standard drawing\nX=0.0\nY=0.0\nZ=0.0\nZoom%=100.00\nClearness=0.0\nRotation=0.00\nblend=0\n</value>
+  </data>
+  <data name="IDS_PrjData" xml:space="preserve">
+    <value>width={0,0:D}\nheight={1,0:D}\nrate={2,0:D}\nscale={3,0:D}\nlength={4,0:D}\naudio_rate={5,0:D}\naudio_ch=2\n</value>
+  </data>
+  <data name="IDS_ScCommon" xml:space="preserve">
+    <value>start={0,0:D}\nend={1,0:D}\nlayer={2,0:D}\n</value>
+  </data>
+  <data name="IDS_ScParam" xml:space="preserve">
+    <value>_name=Scene change\nAdjustment=0.00\ntrack1=0.00\nReversal=0\ncheck0=0\ntype={0,0:D}\nfilter=0\nname=\nparam=*\n</value>
+  </data>
+  <data name="IDS_VidFile" xml:space="preserve">
+    <value>_name=Video file\nPlayback position=1\nvPlay=100.0\nLoop playback=1\nImport alpha channel=0\nfile={0}\n</value>
+  </data>
+</root>
